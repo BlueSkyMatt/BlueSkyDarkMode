@@ -1,0 +1,29 @@
+{
+  "name": "BlueSky Dark Mode",
+  "version": "0.9.0",
+  "description": "Saving our eyes",
+  "permissions": ["storage", "tabs", "web_accessible_resources"],
+  "host_permissions": ["https://cogcms.co.uk/*", "https://b.cogcms.co.uk/*", "https://bluebook.dev.cogplatform.co.uk/*"],
+  "content_scripts": [
+    {
+      "matches": ["https://cogcms.co.uk/*", "https://b.cogcms.co.uk/*"],
+      "css": ["cogcms.css"]
+    },
+    {
+      "matches": ["https://bluebook.dev.cogplatform.co.uk/*"],
+      "css": ["docs.css"]
+    }
+    
+  ],
+  "icons": { 
+      "16": "bluesky.png",
+      "24": "bluesky.png",
+      "32": "bluesky.png"
+  },
+
+  "action": {
+    "default_title": "BlueSky Dark Mode",
+    "default_popup": "popup.html"
+  },
+  "manifest_version": 3
+}

@@ -1,0 +1,428 @@
+:root {
+	--primary: #49cf50;
+	--primary-dark: #26882b;
+	--dark: #010409;
+	--dark-lighter: #0D1117;
+	--dark-even-lighter: #161B22;
+}
+
+.umb-group-panel,
+#navigation,
+.umb-modalcolumn-body,
+.umb-modalcolumn,
+.umb-app-header,
+.umb-box,
+.umb-editor-sub-header--white,
+.umb-table,
+.umb-layout-selector__dropdown,
+.umb-media-grid__item-overlay,
+.umb-breadcrumbs__action:hover,
+body,
+html,
+.umb-file-dropzone .dropzone,
+.umb-overlay,
+.umb-overlay-container,
+.pagination ul>li>a, .pagination ul>li>button, .pagination ul>li>span,
+.umb-drawer,
+.umb-dialog {
+	background: var(--dark-lighter) !important;
+	color: rgba(255, 255, 255, 0.9) !important;
+}
+
+.btn-white,
+.nav-stacked > li > a:hover,
+.umb-sortable-thumbnails-container,
+.umb-sortable-thumbnails li,
+.dropdown-menu,
+.umb-grid .umb-cell-content.-has-editors,
+.umb-dashboard__header,
+.umb-grid .umb-row.-active-child
+ {
+	background: var(--dark-lighter) !important;
+}
+
+.control-description,
+.umb-tree-item.active > .umb-tree-item__inner,
+.umb-tree-item__inner a,
+.umb-tree-root a,
+.umb-tree-icon,
+.umb-action-link,
+.matryoshka-tabs-list-wrapper,
+.matryoshka-tab-link,
+.btn-white,
+.nav-stacked > li > a,
+.dropdown-menu > li > a,
+.dropdown-menu > li > button .umb-tree .color-black,
+.umb-tree .color-black i,
+.dropdown-menu > li > a,
+.dropdown-menu > li > button,
+.umb-grid .cell-tools-add,
+.umb-toggle__icon--right,
+.umb-actions-child .menu-label,
+.umb-action-link .color-black,
+.color-black i,
+.umb-breadcrumbs__action,
+.umb-node-preview__description,
+.umb-box-header-description,
+.umb-user-card__content,
+.umb-user-details-details__information-item-content,
+.umb-user-group-preview__permissions,
+.guiDialogTiny,
+.umb-property label small,
+small.umb-detail,
+.umb-help-badge,
+.btn-icon,
+.umb-file-icon .file-icon>.icon,
+.umb-card-grid .umb-card-grid-item {
+	color: rgba(255, 255, 255, 0.75) !important;
+}
+
+.uneditable-input,
+input[type='color'],
+input[type='date'],
+input[type='datetime-local'],
+input[type='datetime'],
+input[type='email'],
+input[type='month'],
+input[type='number'],
+input[type='password'],
+input[type='search'],
+input[type='tel'],
+input[type='text'],
+input[type='time'],
+input[type='url'],
+input[type='week'],
+textarea,
+.umb-tree-item__inner:hover,
+.umb-tree-root:hover,
+.umb-tree-item.current > .umb-tree-item__inner,
+.btn-white:focus,
+.btn-white:hover,
+select,
+#umbracoMainPageBody .umb-action-link:focus,
+#umbracoMainPageBody .umb-action-link:hover,
+#umbracoMainPageBody .umb-action.selected,
+.umb-toggle__toggle,
+.umb-contextmenu-item button,
+.umb-form-check__check,
+.umb-user-card__content,
+.umb-help-badge,
+.umb-search,
+.umb-media-grid__item.-file,
+.umb-card-grid .umb-card-grid-item:hover,
+.umb-grid .umb-editor-placeholder {
+	background: var(--dark-even-lighter) !important;
+}
+
+.uneditable-input,
+input[type='color'],
+input[type='date'],
+input[type='datetime-local'],
+input[type='datetime'],
+input[type='email'],
+input[type='month'],
+input[type='number'],
+input[type='password'],
+input[type='search'],
+input[type='tel'],
+input[type='text'],
+input[type='time'],
+input[type='url'],
+input[type='week'],
+select,
+textarea,
+.umb-editor-header,
+button.umb-sub-views-nav-item > a.is-active,
+.umb-tree-item.current > .umb-tree-item__inner,
+.umb-tree .umb-tree-item.current > .umb-tree-item__inner .umb-tree-icon,
+.umb-tree .umb-tree-item.current > .umb-tree-item__inner .umb-tree-item__arrow,
+.umb-tree .umb-tree-item.current > .umb-tree-item__inner a,
+.umb-editor-footer,
+.umb-breadcrumbs__ancestor-link:hover,
+.btn-white:focus,
+.btn-white:hover,
+.umb-sub-views-nav-item > a,
+.umb-sub-views-nav-item__action,
+.umb-sub-views-nav-item > a:before,
+.umb-sub-views-nav-item__action:before,
+.umb-avatar--primary,
+.umb-avatar--secondary,
+.umb-sub-views-nav-item > a:hover,
+.umb-sub-views-nav-item__action:hover,
+.umb-box-header-title,
+.nav-stacked > li > a:hover,
+.control-label,
+label.control-label,
+#umbracoMainPageBody .umb-action-link:focus,
+#umbracoMainPageBody .umb-action-link:hover,
+#umbracoMainPageBody .umb-action.selected,
+.umb-node-preview__name,
+.umb-tree-item .umb-tree-item__inner:hover a,
+.umb-tree-item.umb-tree-item__inner a:active,
+.umb-button-ellipsis__icon,
+.btn-link,
+.umb-grid .umb-row-title,
+.umb-sortable-thumbnails .umb-sortable-thumbnails__action,
+.umb-sub-views-nav .umb-sub-views-nav-item > a:hover,
+.umb-sub-views-nav .umb-sub-views-nav-item__action:hover,
+.umb-tree-item__inner:hover .umb-tree-icon,
+.umb-tree-root:hover .umb-tree-icon,
+.umb-layout-selector__active-layout,
+.umb-mini-search .icon,
+.umb-table-body .umb-table__name a,
+.umb-table-head__link.sortable,
+.umb-checkmark,
+.color-black,
+.color-black i,
+.umb-contextmenu-item button,
+.h5,
+h5,
+.umb-action-link:hover span,
+.umb-layout-selector__dropdown-item-icon,
+.umb-layout-selector__dropdown-item-icon[class*=' icon-'],
+.umb-layout-selector__dropdown-item-icon[class^='icon-'],
+.umb-editor,
+.umb-tab-button:hover,
+a,
+.umb-overlay__title,
+.umb-user-details-details__information-item-label,
+.umb-user-group-preview__name,
+.pagination ul > .active > a,
+.pagination ul > .active > button,
+.pagination ul > .active > span,
+.umb-node-preview__icon .color-black, .color-black i,
+.umb-help-badge__title,
+.umb-grid .umb-control-bar,
+.btn-icon:hover,
+.umb-card-grid .umb-card-grid-item:hover,
+.umb-grid .help-text {
+	color: rgba(255, 255, 255, 0.95) !important;
+}
+
+.umb-editor-container,
+.matryoshka-tabs-list-wrapper,
+.umb-editor-header,
+.umb-editor-footer,
+.umb-sortable-thumbnails .umb-sortable-thumbnails__action,
+.umb-property-actions__toggle,
+.umb-editor,
+.pagination ul > .active > a,
+.pagination ul > .active > button,
+.pagination ul > .active > span,
+.pagination ul > li > a:focus,
+.pagination ul > li > a:hover,
+.pagination ul > li > button:focus,
+.pagination ul > li > button:hover {
+	background: var(--dark) !important;
+}
+
+.matryoshka-tab-link.active:before,
+ul.sections > li > a:after,
+.umb-sub-views-nav-item > a:before,
+.umb-sub-views-nav-item__action:before,
+.umb-sub-views-nav-item > a:before,
+.umb-sub-views-nav-item__action:before,
+.umb-avatar--primary,
+.umb-avatar--secondary,
+.umb-checkmark--checked,
+.umb-form-check__check:before,
+.btn-action,
+.umb-loader,
+.umb-tab-button:after {
+	background-color: var(--primary) !important;
+}
+
+.umb-tabs-nav,
+.umb-editor-header {
+	border-bottom: 1px solid rgba(255, 255, 255, 0.377) !important;
+}
+
+ul.sections > li.current > a,
+.matryoshka-tab-link.active p,
+ul.sections > li > a p,
+.list-view-add-layout,
+.umb-multiple-textbox .add-link,
+.umb-node-preview-add,
+.btn-outline,
+.umb-node-preview__action,
+button.umb-sub-views-nav-item__action.is-active,
+.umb-mediapicker .add-link:active,
+.umb-mediapicker .add-link:hover,
+.umb-layout-selector__active-layout:hover,
+.umb-table-body .umb-table-body__icon,
+.umb-checkmark:hover,
+.umb-checkmark__action:focus .umb-checkmark,
+.umb-checkmark__action:hover .umb-checkmark,
+.umb-table-body .umb-table__name,
+.umb-tab--active > .umb-tab-button,
+.umb-user-card__goToUser:focus .umb-user-card__name,
+.umb-user-card__goToUser:hover .umb-user-card__name {
+	color: var(--primary) !important;
+}
+
+.list-view-add-layout:hover,
+.umb-multiple-textbox .add-link:hover,
+.umb-node-preview-add:hover,
+.btn-outline,
+.umb-tree-item.active > .umb-tree-item__inner,
+.umb-grid .cell-tools-add.-bar:focus,
+.umb-grid .cell-tools-add.-bar:hover,
+.umb-mediapicker .add-link:active,
+.umb-mediapicker .add-link:hover,
+.umb-layout-selector__active-layout:hover,
+.umb-checkmark:hover,
+.umb-checkmark__action:focus .umb-checkmark,
+.umb-checkmark__action:hover .umb-checkmark,
+.umb-layout-selector__dropdown-item.-active,
+.umb-form-check__input:checked ~ .umb-form-check__state .umb-form-check__check,
+.umb-user-card.-selectable:hover:before,
+.umb-user-card.-selected:before {
+	border-color: var(--primary) !important;
+}
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > button:hover,
+.dropdown-submenu > a:hover,
+.dropdown-submenu > button:hover,
+.umb-options:hover {
+	color: white !important;
+	background: var(--dark-even-lighter) !important;
+}
+
+
+::-webkit-scrollbar {
+	background-color: #11171f !important;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: #304055 !important;
+	border-radius: 4px;
+}
+
+.umb-grid .templates-preview small {
+	padding-top: 20px !important;
+}
+
+.umb-tab-button--expand > i {
+	background-color: rgba(255, 255, 255, 0.5) !important;
+}
+
+.umb-control-group:after {
+	background-color: #f6f6f796;
+}
+
+.umb-tree-item > .umb-tree-item__inner {
+	color: var(--primary) !important;
+	opacity: 0.8;
+}
+
+.umb-tree-item > .umb-tree-item__inner:hover {
+	color: var(--primary) !important;
+	opacity: 0.8;
+}
+
+.umb-tree-item.active > .umb-tree-item__inner {
+	opacity: 1;
+}
+
+.umb-tree .umb-tree-item__arrow:hover,
+.umb-sub-views-nav-item__action.is-active,
+.umb-file-dropzone .file-select:hover {
+	color: var(--primary) !important;
+}
+
+.umb-editor-sub-header--white,
+.umb-editor-sub-header {
+	border-width: 0px !important;
+}
+
+.umb-grid .newbtn:hover {
+	opacity: 1 !important;
+	color: var(--primary) !important;
+}
+
+.uneditable-input,
+input[type='color'],
+input[type='date'],
+input[type='datetime-local'],
+input[type='datetime'],
+input[type='email'],
+input[type='month'],
+input[type='number'],
+input[type='password'],
+input[type='search'],
+input[type='tel'],
+input[type='text'],
+input[type='time'],
+input[type='url'],
+input[type='week'],
+textarea,
+.umb-file-dropzone .dropzone {
+	border-color: #d8d7d975 !important;
+}
+
+.umb-control-group:after {
+	background-color: #d8d7d9cb !important;
+}
+
+.btn-white .caret {
+	border-top-color: var(--primary) !important;
+	border-bottom-color: var(--primary) !important;
+}
+
+.caret {
+	border-top-color: var(--primary) !important;
+}
+
+.umb-editor-sub-header {
+	background: none !important;
+}
+
+.umb-file-dropzone .dropzone.is-small .illustration {
+	filter: hue-rotate(180deg) invert(1);
+}
+
+.umb-editor-sub-header {
+	backdrop-filter: blur(30px);
+}
+
+[umb-sticky-bar].umb-sticky-bar--active {
+	background-color: var(--dark) !important;
+}
+
+
+.umb-grid .umb-control-bar {
+	background-color: var(--primary-dark)!important;
+}
+
+.umb-grid .umb-row.-active, .umb-grid .umb-control.-active, .umb-grid .umb-row .umb-cell.-active .umb-cell-content.-has-editors {
+	border-color: var(--primary-dark)!important;
+}
+
+.umb-grid .umb-editor-placeholder,
+.sidetoc,
+.sidefilter,
+.toc,
+.navbar-default
+ {
+	border-color: var(--dark-lighter)!important;
+}
+
+.sidetoc,
+.sidefilter,
+.toc,
+.table-striped>tbody>tr:nth-of-type(odd),
+.navbar-default,
+.sidenav, .fixed_header, .toc, .navbar-inverse,
+.footer{
+	background-color: var(--dark-lighter)!important;
+}
+
+.toc-filter {
+	background-color: var(--dark-even-lighter)!important;
+
+}
+
+.umb-tree-item.active>.umb-tree-item__inner:before {
+	border: none!important;
+}
