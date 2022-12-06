@@ -110,7 +110,8 @@ select,
 .umb-search,
 .umb-media-grid__item.-file,
 .umb-card-grid .umb-card-grid-item:hover,
-.umb-grid .umb-editor-placeholder {
+.umb-grid .umb-editor-placeholder,
+.umb-file-dropzone .file-list {
 	background: var(--dark-even-lighter) !important;
 }
 
@@ -191,11 +192,14 @@ a,
 .pagination ul > .active > button,
 .pagination ul > .active > span,
 .umb-node-preview__icon .color-black, .color-black i,
+span.color-black, .color-black i.icon-article, .color-black i::before,
 .umb-help-badge__title,
 .umb-grid .umb-control-bar,
 .btn-icon:hover,
 .umb-card-grid .umb-card-grid-item:hover,
-.umb-grid .help-text {
+.umb-grid .help-text,
+.umb-file-dropzone .file-select,
+.umb-file-dropzone .file-list {
 	color: rgba(255, 255, 255, 0.95) !important;
 }
 
@@ -378,9 +382,6 @@ textarea,
 	background: none !important;
 }
 
-.umb-file-dropzone .dropzone.is-small .illustration {
-	filter: hue-rotate(180deg) invert(1);
-}
 
 .umb-editor-sub-header {
 	backdrop-filter: blur(30px);
@@ -425,4 +426,10 @@ textarea,
 
 .umb-tree-item.active>.umb-tree-item__inner:before {
 	border: none!important;
+}
+
+
+.umb-media-grid__item.-selectable:hover .umb-media-grid__item-select, .umb-media-grid__item.-selected .umb-media-grid__item-select {
+    border: 2px solid var(--primary)!important;
+    box-shadow: 0 0 4px 0 var(--primary), inset 0 0 2px 0 var(--primary)!important;
 }
