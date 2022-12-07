@@ -1,0 +1,213 @@
+:root {
+	--primary: hsl(206, 65%, 54%);
+	--primary-dark: hsl(206, 75%, 47%);
+	--accent: #4ab738;
+	--danger: #b73838;
+	--dark: #010409;
+	--dark-lighter: #0D1117;
+	--dark-even-lighter: #161B22;
+}
+
+
+body
+ {
+	background-color: var(--dark) !important;
+	color: rgba(255, 255, 255, 0.8) !important;
+}
+
+
+tr:nth-child(odd),
+.dropdown-menu,
+.panel,
+.navbar,
+.book-menu nav {
+	background-color: var(--dark-lighter) !important;
+}
+
+tr:nth-child(even),
+.input-group-addon,
+.form-control,
+th,
+.panel-default>.panel-heading,
+.btn-default {
+	background-color: var(--dark-even-lighter) !important;
+}
+
+.navbar-nav>li>a,
+.dropdown-menu>li>a,
+.book-menu a,
+.btn-default {
+	color: rgba(255, 255, 255, 0.8) !important;
+
+}
+
+.bs-docs-sidebar .nav>li>a {
+	color: rgba(255, 255, 255, 0.65)!important;
+}
+
+aside nav ul a:hover {
+	opacity: 1 !important;
+}
+
+.dropdown-menu .divider {
+	opacity: .3;
+}
+
+.navbar-nav>li>a:hover,
+.navbar-nav>li>a:focus,
+.book-menu a:hover {
+	background-color: var(--dark-even-lighter) !important;
+	color: white !important;
+}
+
+.form-control,
+.multiselect-container li a label.checkbox {
+	color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.panel,
+.panel-default>.panel-heading {
+	color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.btn-multi,
+input,
+.badge {
+	background-color: var(--dark-even-lighter) !important;
+
+	color: rgba(255, 255, 255, 0.8) !important;
+
+}
+
+th.anchorheading {
+	background: #010409 !important;
+	font-size: 2rem;
+	padding: 20px;
+}
+
+.dropdown-menu>li>a:hover,
+.dropdown-menu>li>a:focus {
+	background-image: none !important;
+	background-color: var(--dark-even-lighter) !important;
+	color: var(--primary);
+}
+
+a {
+	color: var(--primary) !important;
+}
+
+a:hover,
+a:active {
+	color: var(--primary-dark) !important;
+}
+
+.bs-docs-sidebar .nav>.active:focus>a,
+.bs-docs-sidebar .nav>.active:hover>a,
+.bs-docs-sidebar .nav>.active>a {
+	border-color: var(--primary) !important;
+	color: var(--primary) !important;
+}
+
+pre,
+code {
+	background-color: var(--dark-lighter) !important;
+	color: var(--accent) !important;
+}
+
+pre {
+	border: 1px solid rgba(255, 255, 255, 0.3) !important;
+}
+
+.jumbotron {
+	background-color: transparent !important;
+}
+
+blockquote {
+	border-left: 3px solid #eeeeee0f !important;
+}
+
+.panel-default>.panel-heading {
+	background-image: none !important;
+}
+
+
+.btn-info,
+.btn-primary {
+	color: var(--dark) !important;
+	background-color: var(--primary) !important;
+	border-color: var(--primary) !important;
+	background-image: none !important;
+}
+
+.btn-info:hover,
+.btn-primary:hover {
+	color: var(--dark) !important;
+	background-color: var(--primary-dark) !important;
+	border-color: var(--primary-dark) !important;
+}
+
+
+.bs-docs-sidebar .nav>li>a:focus,
+.bs-docs-sidebar .nav>li>a:hover {
+	border-left-color: var(--primary) !important;
+}
+
+.bs-callout-danger h4 {
+	color: var(--danger) !important;
+}
+
+.bs-callout-danger {
+	border-left-color: var(--danger) !important;
+}
+
+.alert-info {
+	background-color: var(--dark-lighter) !important;
+	color: var(--primary) !important;
+	background-image: none !important;
+	border-color: rgba(255, 255, 255, 0.7) !important;
+}
+
+
+.primary {
+	border-bottom: 1px solid var(--primary) !important;
+	box-shadow: 0px 0px 6px rgb(34 129 33 / 37%) !important;
+}
+
+.markdown a {
+	color: white !important;
+}
+
+.book-footer img {
+	filter: invert(1);
+}
+
+
+.label {
+	padding: .2em .6em!important;
+}
+
+.label-primary {
+	background-color: var(--primary)!important;
+}
+
+.label-success {
+	background-color: var(--accent)!important;
+}
+
+
+.page-header {
+	border-bottom-color: rgba(255, 255, 255, 0.5)!important;
+}
+
+p {
+	color: rgba(255, 255, 255, 0.65)!important;
+}
+
+::-webkit-scrollbar {
+	background-color: #11171f !important;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: #304055 !important;
+	border-radius: 4px;
+}

@@ -12,8 +12,11 @@
     {
       "matches": ["https://bluebook.dev.cogplatform.co.uk/*"],
       "css": ["docs.css"]
+    },
+    {
+      "matches": ["https://autoedge.blueskyinteractive.co.uk/*"],
+      "css": ["autoedge.css"]
     }
-    
   ],
   "icons": { 
       "16": "bluesky.png",
