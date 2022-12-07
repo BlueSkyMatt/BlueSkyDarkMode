@@ -513,7 +513,7 @@ textarea,
 	color: rgba(255, 255, 255, 0.75)!important;
 }
 
-.umb-group-builder__group-add-property:hover, .umb-group-builder__group.-placeholder:hover {
+.umb-group-builder__group-add-property:hover, .umb-group-builder__group.-placeholder:hover, .umb-grid .umb-row .umb-cell-placeholder:hover {
 	color: var(--primary)!important;
 	border-color: var(--primary)!important;
 }
