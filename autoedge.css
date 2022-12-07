@@ -9,8 +9,7 @@
 }
 
 
-body
- {
+body {
 	background-color: var(--dark) !important;
 	color: rgba(255, 255, 255, 0.8) !important;
 }
@@ -42,7 +41,7 @@ th,
 }
 
 .bs-docs-sidebar .nav>li>a {
-	color: rgba(255, 255, 255, 0.65)!important;
+	color: rgba(255, 255, 255, 0.65) !important;
 }
 
 aside nav ul a:hover {
@@ -183,24 +182,24 @@ blockquote {
 
 
 .label {
-	padding: .2em .6em!important;
+	padding: .2em .6em !important;
 }
 
 .label-primary {
-	background-color: var(--primary)!important;
+	background-color: var(--primary) !important;
 }
 
 .label-success {
-	background-color: var(--accent)!important;
+	background-color: var(--accent) !important;
 }
 
 
 .page-header {
-	border-bottom-color: rgba(255, 255, 255, 0.5)!important;
+	border-bottom-color: rgba(255, 255, 255, 0.5) !important;
 }
 
 p {
-	color: rgba(255, 255, 255, 0.65)!important;
+	color: rgba(255, 255, 255, 0.65) !important;
 }
 
 ::-webkit-scrollbar {

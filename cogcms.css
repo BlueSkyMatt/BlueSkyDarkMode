@@ -37,7 +37,8 @@ html,
 .umb-grid .umb-cell-content.-has-editors,
 .umb-dashboard__header,
 .umb-grid .umb-row.-active-child,
-.flatpickr-calendar
+.flatpickr-calendar,
+.umb-group-builder__group
  {
 	background: var(--dark-lighter) !important;
 }
@@ -78,7 +79,10 @@ small.umb-detail,
 .flatpickr-calendar,
 .flatpickr-months .flatpickr-prev-month,
  .flatpickr-months .flatpickr-next-month,
- .flatpickr-day {
+ .flatpickr-day,
+ .umb-package-info,
+ .umb-packages-category,
+ .umb-group-builder__group-remove {
 	color: rgba(255, 255, 255, 0.75) !important;
 }
 
@@ -116,7 +120,14 @@ select,
 .umb-media-grid__item.-file,
 .umb-card-grid .umb-card-grid-item:hover,
 .umb-grid .umb-editor-placeholder,
-.umb-file-dropzone .file-list {
+.umb-file-dropzone .file-list,
+.umb-package-link,
+.umb-package-icon,
+.umb-packages-category,
+.usync-user-boolean-value .usync-user-lock,
+table,
+.umb-group-builder__property-tag.-white,
+.umb-panel-header-icon {
 	background: var(--dark-even-lighter) !important;
 }
 
@@ -208,7 +219,15 @@ span.color-black, .color-black i.icon-article, .color-black i::before,
 .black,
 .flatpickr-months .flatpickr-prev-month:hover,
  .flatpickr-months .flatpickr-next-month:hover,
- .flatpickr-weekday {
+ .flatpickr-weekday,
+ .umb-package-details__section-title,
+ pre, code,
+ .content-type-editor-dialog.edit-property-settings .editor-info,
+ .umb-toggle__label,
+ .umb-group-builder__group-remove:hover,
+ .content-type-editor-dialog.edit-property-settings .editor-remove-icon,
+ .umb-package-details__information-item-label,
+ .umb-package-details__owner-profile-name {
 	color: rgba(255, 255, 255, 0.95) !important;
 }
 
@@ -225,7 +244,8 @@ span.color-black, .color-black i.icon-article, .color-black i::before,
 .pagination ul > li > a:focus,
 .pagination ul > li > a:hover,
 .pagination ul > li > button:focus,
-.pagination ul > li > button:hover {
+.pagination ul > li > button:hover,
+pre  {
 	background: var(--dark) !important;
 }
 
@@ -241,7 +261,8 @@ ul.sections > li > a:after,
 .umb-form-check__check:before,
 .btn-action,
 .umb-loader,
-.umb-tab-button:after {
+.umb-tab-button:after,
+.flatpickr-day.selected:hover {
 	background-color: var(--primary) !important;
 }
 
@@ -269,7 +290,8 @@ button.umb-sub-views-nav-item__action.is-active,
 .umb-table-body .umb-table__name,
 .umb-tab--active > .umb-tab-button,
 .umb-user-card__goToUser:focus .umb-user-card__name,
-.umb-user-card__goToUser:hover .umb-user-card__name {
+.umb-user-card__goToUser:hover .umb-user-card__name,
+.umb-folder-grid__folder.-selected {
 	color: var(--primary) !important;
 }
 
@@ -401,11 +423,11 @@ textarea,
 }
 
 
-.umb-grid .umb-control-bar {
+.umb-grid .umb-control-bar, .umb-packages-category.-active {
 	background-color: var(--primary-dark)!important;
 }
 
-.umb-grid .umb-row.-active, .umb-grid .umb-control.-active, .umb-grid .umb-row .umb-cell.-active .umb-cell-content.-has-editors {
+.umb-grid .umb-row.-active, .umb-grid .umb-control.-active, .umb-grid .umb-row .umb-cell.-active .umb-cell-content.-has-editors, .umb-package-link:hover {
 	border-color: var(--primary-dark)!important;
 }
 
@@ -426,7 +448,8 @@ textarea,
 .sidenav, .fixed_header, .toc, .navbar-inverse,
 .footer,
 .flatpickr-monthDropdown-months,
-.numInputWrapper .numInput{
+.numInputWrapper .numInput,
+.umb-folder-grid__folder{
 	background-color: var(--dark-lighter)!important;
 }
 
@@ -462,4 +485,39 @@ textarea,
 
 .flatpickr-next-month:hover, .flatpickr-prev-month:hover, .flatpickr-next-month:active, .flatpickr-prev-month:active, .flatpickr-months .flatpickr-prev-month:hover svg, .flatpickr-months .flatpickr-next-month:hover svg  {
 	fill: rgba(255, 255, 255, 0.95)!important;
+}
+
+
+.umb-folder-grid__folder.-selected:before, .umb-folder-grid__folder:hover:before {
+    border: 2px solid var(--primary)!important;
+    box-shadow: 0 0 4px 0 var(--primary), inset 0 0 2px 0 var(--primary)!important;
+}
+
+
+.btn-success .caret, .btn-info .caret {
+    border-top-color: var(--dark)!important;
+    border-bottom-color: var(--dark)!important;
+}
+
+.content-type-editor-dialog.edit-property-settings .editor-remove-icon:hover, .content-type-editor-dialog.edit-property-settings .editor-info:hover {
+    color: white!important;
+    background-color: var(--dark-even-lighter)!important;
+}
+
+.umb-group-builder__property-meta-label textarea, .umb-group-builder__property-meta-description textarea, .umb-locked-field__text, input.umb-locked-field__input {
+	background-color: transparent!important;
+	border: none!important;
+}
+
+.umb-group-builder__group-add-property, .umb-group-builder__group.-placeholder {
+	color: rgba(255, 255, 255, 0.75)!important;
+}
+
+.umb-group-builder__group-add-property:hover, .umb-group-builder__group.-placeholder:hover {
+	color: var(--primary)!important;
+	border-color: var(--primary)!important;
+}
+
+.umb-group-builder__property-preview:after {
+	background: hsl(0deg 0% 98% / 10%)!important;
 }
