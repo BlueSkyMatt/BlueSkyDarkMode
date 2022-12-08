@@ -1,0 +1,21 @@
+name: Deploy to Webstore
+on:
+  workflow_dispatch:
+  release: 
+    types: [ published ]
+      
+jobs:
+  # This might work but I don't know
+  - name: Create zip
+      run: zip -r -x '*.git*' -x '*.github*' extension.zip .
+    
+  # Add secrets to the repo
+  - name: Publish to chrome store
+    uses: Klemensas/chrome-extension-upload-action@$VERSION
+      with:
+        refresh-token: ${{secrets.CHROME_REFRESH_TOKEN}}
+        client-id: ${{secrets.CHROME_CLIENT_ID}}
+        client-secret: ${{secrets.CHROME_CLIENT_SECRET}}
+        file-name: ./extension.zip
+        app-id: ${{ secrets.CHROME_APP_ID }}
+        publish: true
