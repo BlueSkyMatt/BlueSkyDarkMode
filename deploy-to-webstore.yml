@@ -11,7 +11,7 @@ jobs:
     
   # Add secrets to the repo
   - name: Publish to chrome store
-    uses: Klemensas/chrome-extension-upload-action@$VERSION
+    uses: Klemensas/chrome-extension-upload-action@master
       with:
         refresh-token: ${{secrets.CHROME_REFRESH_TOKEN}}
         client-id: ${{secrets.CHROME_CLIENT_ID}}
